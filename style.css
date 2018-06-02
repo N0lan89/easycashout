@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+input[type="number"] {
+    width: 100px;
+}
+
+p {
+    font-weight: bold;
+}
+
+
+div {
+    width: 33%;
+    display: inline-block;
+    margin: 2%;
+    border: solid 1px black;
+}
+
+.sign {
+    width: 100px;
+    height : 100px;
+    border: none;
+   
+}
+
+hr {
+    width: 200px;
+}

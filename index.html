@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="cash.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="coins">
+        <h2>Coins</h2>
+        <hr>
+        <p>0.05 x <input type="number" id="input01" oninput="coinsFunction()"> = <span id="r01"> 0.00 </span></p>
+
+        <p>0.10 x <input id="input02" type="number" oninput="coinsFunction()"> = <span id="r02"> 0.00 </span></p>
+
+        <p>0.25 x <input id="input03" type="number" oninput="coinsFunction()"> = <span id="r03"> 0.00 </span></p>
+
+        <p>1.00 x <input id="input04" type="number" oninput="coinsFunction()"> = <span id="r04"> 0.00 </span></p>
+
+        <p>2.00 x <input id="input05" type="number" oninput="coinsFunction()"> = <span id="r05"> 0.00 </span></p>
+        <hr>
+        <h3>TOTAL COINS : <span id="total01"> 0.00</span> </h3>
+    </div>
+    <div class="sign">
+        <p> + </p>
+    </div>
+    <div class="rolls">
+        <h2>Rolls</h2>
+        <hr>
+        <p>0.05 : <input type="number" id="input06" oninput="rollsFunction()"> = <span id="r06"> 0.00 </span></p>
+
+        <p>0.10 : <input id="input07" type="number" oninput="rollsFunction()"> = <span id="r07"> 0.00 </span></p>
+
+        <p>0.25 : <input id="input08" type="number" oninput="rollsFunction()"> = <span id="r08"> 0.00 </span></p>
+
+        <p>1.00 : <input id="input09" type="number" oninput="rollsFunction()"> = <span id="r09"> 0.00 </span></p>
+
+        <p>2.00 : <input id="input10" type="number" oninput="rollsFunction()"> = <span id="r10"> 0.00 </span></p>
+        <hr>
+        <h3>TOTAL COINS : <span id="total02"> 0.00</span> </h3>
+    </div>
+    <div class="sign">
+        <p> = <span id="total"> 0.00 </span></p>
+    </div>
+
+</body>
+
+</html>
